@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class = "Title">USER DETAILS</h1>
+        <div class="form">
+            <div class="FirstName">First Name : <input type="text" class="fn" placeholder="Enter your first name"></div>
+            <div class="LastName">Last Name : <input type="text" class="ln" placeholder="Enter your last name"></div>
+            <div class="Gender">Gender : Male<input type="checkbox" class="M">     Female<input type="checkbox" class="F"></div>
+            <div class="Subject">Subject : <select class = "S" type="search">
+                <option value="PDS">Programming</option>
+                <option value="Biology">Biology</option>
+                <option value="Maths">Maths</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                </select>
+            <div class = "Language">Language : <select class = "SL" type="search">
+                <option value="Hindi">Hindi</option>
+                <option value="Sanskrit">Sanskrit</option>
+                <option value="French">French</option>
+                <option value="Japenese">Japenese</option>
+                <option value="Marathi">Marathi</option>
+                </select>
+            </div>
+            <div class="DOB">Birth Date : <input type="date" class="B"></div>
+            <div class="Contact">Contact No : <input type="number" class="C" maxlength="10" placeholder="XXXXXXXXXX"></b></div>
+            <div class = "Pin">Pin Code :  <input type="number" class="P" placeholder="XXXXX">
+                </div>
+            <div class = "State">State : <select class="St" name="State">
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Utter Pradesh">Utter Pradesh</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Jammu">Jammu</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+            </select></div>
+            <div class="Country">Country : <select class="Con" name="Country">
+                <option value="India">India</option>
+                <option value="Dubai">Dubai</option>
+                <option value="China">China</option>
+                <option value="Russia">Russia</option>
+            </select></div>
+            <div class="Region">Region : <select class="R" name="Region">
+                <option value="Katara Hills">Katara Hills</option>
+                <option value="MP Nagar">MP Nagar</option>
+                <option value="Rajabhoj">Rajabhoj</option>
+            </select></div>
+            <button onclick = "clear()">RESET</button>                      <button>SUBMIT</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
